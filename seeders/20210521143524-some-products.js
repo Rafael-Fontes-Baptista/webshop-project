@@ -9,7 +9,7 @@ module.exports = {
         price: 2500,
         imageUrl:
           "https://www.costumesinaustralia.com.au/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/t/tt1077-18.jpg",
-        categoryId: 1,
+        categoryId: 2,
         createdAt: new Date(),
         updatedAt: new Date(),
       },
