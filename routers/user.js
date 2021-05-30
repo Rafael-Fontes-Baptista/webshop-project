@@ -4,7 +4,7 @@ const User = require("../models").user
 
 const router = new Router()
 
-router.post("/", async (req, res, next) => {
+router.post("/signup", async (req, res, next) => {
   try {
     const { firstName, lastName, email, password, phone, address } = req.body
     if (!firstName || !lastName || !email || !password) {

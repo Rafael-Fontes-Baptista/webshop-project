@@ -14,6 +14,9 @@ const PORT = process.env.PORT || 4000
 app.use(bp.json())
 app.use(bp.urlencoded({ extended: true }))
 
+const cors = require("cors")
+app.use(cors())
+
 // Routers
 app.use("/", authRouter)
 app.use("/users", userRouter)
